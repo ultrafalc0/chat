@@ -1,0 +1,132 @@
+body {
+    background-color:#363237;
+    color: #2d4262;
+    font-family: fantasy;
+    font-size: x-large;
+    
+}
+header {
+    /*background-color: #4b8ce0;
+    border-radius: 10px;
+    background-image:url(bannerbitenopng-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: auto;
+    width: auto;
+    margin: auto;*/
+    color: #48628a;
+}
+
+.tetedepage{
+    font-size: 200%;
+}
+
+.corp {
+    background-color: #73605b;
+    border-radius: 10px;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    margin:auto;
+}
+
+ button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #363237;
+    font-size: 50px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    text-align: center;
+}
+  
+  button:hover {
+    background-color: #363237;
+    color: white;
+    cursor: pointer;
+    transition-duration: 1.8s;
+  }
+
+.divdubouton {
+    margin: auto;
+    width: 10%;
+    display: flex;
+}
+
+.divflechegauche {
+    margin: auto;
+    width: 10%;
+}
+
+.gifargent {
+    width: 50%;
+    display:flex;
+}
+
+.résultat {
+    background-color: #73605b;
+    border-radius: 10px;
+    font-family: 'Brush Script MT', cursive;
+    margin: auto;
+    width: 100px;
+    height: auto;
+    font-size: x-large;
+}
+
+.résultat:hover {
+    background-color: #363237;
+    border-radius: 10px;
+    font-family: 'Brush Script MT', cursive;
+    color:white;
+    transition-duration: 1.8s;
+    margin: auto;
+    width: 100px;
+    height: auto;
+    font-size: x-large;
+}
+
+.emoji2class {
+    display:flex;
+    width: 100px;
+    height: auto;
+}
+
+.réponses {
+    font-size: x-large;
+    width: 100px;
+    height: auto;
+    margin: auto;
+}
+
+
+
+
+
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #5276ad;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+    margin-bottom: 20%;
+  }
+.button:hover {
+    background-color: #3c5881
+
+}
+
+.button:active {
+  background-color: #2d4262;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  transition-duration: 0.3s;
+}
+
+
+/*<button onclick ="réponses = document.querySelector('.réponses');
+                        
+                        réponses.innerHTML = Math.floor(Math.random() * 10);">bouton gratuit</button>
